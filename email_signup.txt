@@ -1,0 +1,51 @@
+gmail registeration/ sign up new account positive and negative data:
+=======================================================================
+firstName :   
+------------
+positive data   : valid first name as ravi,raju,RErr,ravi123,ravi#,ravi*,32,1,etc...
+
+negative data : invalid firstname like sdx#$$%^,@#$%,empty,empty spaces("   ")
+
+sur name:  optional( if will fill @#$% we get invalid )
+----------
+
+DOB :
+--------
+positive data : valid dates like 1 jan 2022, 19 aug 2001, etc....
+
+negative data : invalid dates like 31 feb, 31 april etc....
+
+gender :
+---------
+positive data :male,female, customised,rather not say
+
+negative data : leave it empty will get error
+
+username :
+-------------
+positive data :combination of letters(a-z) numbers(0-9) and periods(.) ex : abc123.ac
+               and it must be from 6-30 char long as well.
+               and also we need to give new user name that is not already exist.
+
+negative data :less than 6 chars ex:abcde, more than 30 chars and,#$%,WTGS#$%,asfdx123@#$,etc..
+
+password  :
+--------------
+positive data :mix of letters numbers and symbols with length more than 8 ex :vdbs@#123 Madhu@123 etc...
+
+negative data :only numbers 1234566789,only alpha asdfghjm,only spl_chars @#$%^%$# 
+               combination of any two abcd1234,1234!@#$%,acvdsfr@#$% etc..
+               and also size less than 8(length) : abc123,asds2# etc(invalid)
+
+confirm password  :
+--------------
+positive data : only which ever type in password field is positive
+
+negative data :other than that password all are invalid
+
+phone number :
+---------------
+positive data : numbers with length 10 only : 9912391370,1234567890 etc...
+negative data : numbers with length more or less than 10 like 1234,123456765432,.....
+                alphabets sdufxcvbnuyt,spl characters !@#$%^& combination as well
+                like asdfg123456,123456!@#$,dfghj!@#$%,ASDFYG12345,ASDF!@#$%,......

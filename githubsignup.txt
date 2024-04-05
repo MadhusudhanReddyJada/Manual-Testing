@@ -1,0 +1,28 @@
+postive and negative data for github sign up
+==============================================
+
+positive data
+------------------
+email :  any valid email like jadamadhu2002@gmail.com 
+          and also unique(not already existed one)
+
+create a password : any password with must alphanumaric exceptional spl chars with atleast 8 characters
+                    Ex : Madhu123456789665,madhu@1234,madhusudhanreddy ect
+
+username : the user name which ever avilable on the website i.e which ever it is accepting for uniqueness
+           Ex : madhuredfytg
+
+
+
+negative data
+----------------
+
+email :  any invalid email like xyzycdr.com
+          and also already existing email like jadamadhu2002@gmail.com 
+
+create a password : any password with with size less than 8 like abc,123434 etc
+                    only numbers 12345678, only spl chars @#$#%&^%, 
+
+username : the user name which ever avilable on the website i.e which ever it is accepting for uniqueness
+           Ex : madhuredfytg
+

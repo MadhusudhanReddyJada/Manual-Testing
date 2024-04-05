@@ -1,0 +1,44 @@
+positive testing:
+==================
+1) gender: click Male 
+           click Female or without selecting any thing also it will work
+
+2)firstname : abc,madhu,123,@#nbdv,abc vfg,abc123@#  , d d 1 2 3,123jfkjeb@#4,ASGFCX,
+
+3)lastname : abc,madhu,123,@#nbdv,abc vfg,abc123@#  , d d 1 2 3,123jfkjeb@#4,FFSX
+
+4)DOB   :   DAY(1-31)  MONTH(JAN-DEC)  YEAR(1914-2024) 
+             or without giving anything also it will work
+
+5)Email  :   abc@gmail.com,abc123@gmail.com,abc123^@gmail.com
+            only new emails is accepting
+
+6)company name : vvwefvf,gcecADRXTX,ASDX,123EVDV,@$$#,1442323,,     ,"""",etc.......
+                   or without giving anything also it will work
+
+7)Password : 123456,abcdef,abc123,abc1@3,ABC123,ABCabc,#@%#@#%,123445#@$$,(any thing with more than 6 length)
+
+8)Confirm Password : 123456,abcdef,abc123,abc1@3,ABC123,ABCabc,#@%#@#%,123445#@$$,(any thing with more than 6 length)
+                      must same as Password input field
+
+ outcome -- with this all positive input the page like "your registration completed" will appear.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+negative testing                                                      outcomes
+===================                                                 ==============
+1)firstname : empty, spaces-"      "                            firstname is required
+
+2)lastname : empty, spaces-"      "                             lastname is required
+
+3)Email  :   abc@gmail,abc123.com,abc123@#$$@gmail.com,         wrong email,email is required
+              @gmail.com,abc,ABCabc,abc123,1234,
+
+4)Password : 12345,1234,1234,123,12,1,a,ab,   ,,empty...    Password must meet the following rules: must have at least 6 characters (or)
+            (any thing with less than 6 length),                   Password is required
+
+5)Confirm Password : 12345,1234,1234,123,12,1,a,ab,   ,,        1)The password and confirmation password do not match
+                 empty ....(any thing with less than 6 length),     2)   Password is required
+                 not same as password field also 
+
+ECP AND BVA  INPUT DOMAIN TESTING
